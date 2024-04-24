@@ -7,12 +7,18 @@
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <style>
         .wrapper {
-            width: 600px;
             margin: 0 auto;
+
         }
-        table tr td:last-child {
-            width: 120px;
-        }
+        .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* This will make the container take the full height of the viewport */
+    }
+    table tr td:last-child {
+        width: 120px;
+    }
     </style>
 </head>
 <body>
